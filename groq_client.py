@@ -9,7 +9,7 @@ class GroqAIClient:
     """Handle all Groq AI interactions"""
     
     def __init__(self):
-        self.client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+        self.client = Groq(api_key=st.secrets("GROQ_API_KEY"))
         self.model = "llama-3.1-8b-instant"  # Fast and efficient model
     
     def generate_nutrition_goals(self, weight: float, height: float, gender: str, 
