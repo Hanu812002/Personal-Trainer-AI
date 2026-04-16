@@ -1,5 +1,6 @@
+streamlit
+
 supabase==2.3.4
-gotrue==1.0.4
 httpx==0.24.1
 
 pillow>=10.3.0
