@@ -3,6 +3,8 @@ streamlit
 supabase==2.3.4
 httpx==0.24.1
 
+python-dotenv
+
 pillow>=10.3.0
 opencv-python-headless
 numpy
